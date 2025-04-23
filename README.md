@@ -1,8 +1,8 @@
 # 🌷 Flowershow template
 
-> 💐 Publish beautiful books, wikis, websites and PKMs from markdown. For free, no coding.
+> 💐 Publish beautiful books, wikis, websites and PKMs from markdown. For free, no coding needed.
 
-Flowershow is an open-source tool and cloud service to quickly and easily turn your markdown into an elegant website, wiki, docs etc.
+Flowershow is  an open-source tool and cloud service to quickly and easily turn your markdown into an elegant website, wiki, docs etc.
 
 - **Markdown ... extended**: supports all standard Markdown plus many extensions and is fully compatible with e.g. Obsidian out of the box with no need to modify the syntax or change the file layout. Flowershow can be used with any CommonMark or GFM files.
 - **Elegant and functional** default theme with basic front page and navbar.
