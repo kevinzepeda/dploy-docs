@@ -1,56 +1,67 @@
-# 🌷 Flowershow template
+# 🚀 Dploy.sh Documentation
 
-> 💐 Publish beautiful books, wikis, websites and PKMs from markdown. For free, no coding needed.
+This repository provides a lightweight application designed to serve document files (PDFs, images, text, etc.) via a web interface or API. It is particularly well-suited for sharing technical documentation, reports, administrative files, and other relevant resources.
 
-Flowershow is  an open-source tool and cloud service to quickly and easily turn your markdown into an elegant website, wiki, docs etc.
+---
 
-- **Markdown ... extended**: supports all standard Markdown plus many extensions and is fully compatible with e.g. Obsidian out of the box with no need to modify the syntax or change the file layout. Flowershow can be used with any CommonMark or GFM files.
-- **Elegant and functional** default theme with basic front page and navbar.
-- **Easy to tweak and extend** with custom page layouts and custom React components, that can be used within your markdown.
-- **Backed by a team of data geeks**, who love Markdown, and are passionate about sharing knowledge and ideas with others.
+## 🧰 Features
 
-For full feature list see https://flowershow.app/#features
+- HTTP server for serving static documents
+- Intuitive file browsing interface
+- File download functionality
+- Folder-based file organization
+- Optional authentication for access control
 
-## [👉 See Flowershow in action on Flowershow.app](https://flowershow.app/)
+---
 
-![image](https://github.com/user-attachments/assets/aa5a6948-dc0e-4925-8154-1a30a02947fa)
+## Installation
 
-## Docs
+To get started, clone the repository and launch the server:
 
-https://flowershow.app/docs/
+```bash
+git clone https://github.com/kevinzepeda/dploy-docs.git
+cd dploy-docs
+# Requires Node.js v18.x
+npm install
+npm run dev
+```
 
-- [Overview](https://flowershow.app/#overview)
-- [QuickStart](https://flowershow.app/docs/publish-howto)
-- [Roadmap](https://flowershow.app/docs/roadmap)
+By default, all files are served from the `./content` directory.
 
-## Use with Obsidian Flowershow plugin
+---
 
-You can use this template together with the [Flowershow Obsidian Plugin](https://github.com/datopian/obsidian-flowershow).
-See the README in the plugin repo for information on how to set it up.
+## ⚙️ Configuration
 
-## Quick clone and deploy
+Configuration settings can be adjusted by editing the `./content/config.mjs` file:
 
-With Vercel:
+- UI customization
+- Site links configuration
+- SEO settings and meta tags
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/datopian/flowershow)
+---
 
-## Forum
+## 🤝 Contributing
 
-https://github.com/flowershow/flowershow/discussions
+Contributions are highly encouraged and appreciated. To contribute, please follow these steps:
 
-## Contributing
+1. Fork the repository
+2. Create a new feature branch (`git checkout -b feature/my-improvement`)
+3. Implement your changes and commit them (`git commit -am 'Add new feature'`)
+4. Push your branch to your fork (`git push origin feature/my-improvement`)
+5. Open a Pull Request with a clear description of your changes
 
-If you want to contribute, you are more than welcome! You can start by checking our [project backlog](https://github.com/orgs/flowershow/projects/1).
+For detailed guidelines, refer to the [`CONTRIBUTING.md`](CONTRIBUTING.md) file.
 
-If you have an idea for improvement, and it doesn't have a corresponding issue yet, simply submit a new one.
+---
 
-If you'd like to work on an existing issue:
+## 🛡️ Security
 
-1. Fork the main repository.
-2. Clone the forked repository to your machine.
-3. Create a feature branch (e.g. `50-update-readme`, where `50` is the number of the related issue).
-4. Commit your changes to the feature branch.
-5. Push the feature branch to your forked repository.
-6. Create a Pull Request against the original repository.
-   - add a short description of the changes included in the PR
-7. Address review comments if requested by the reviewers.
+If you discover a security vulnerability or issue, **please do not open a public issue**. Instead, contact us directly via the email provided below to report the issue confidentially and responsibly.
+
+---
+
+## 🪪 License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code, provided that proper credit is given to the original authors.
+
+---
