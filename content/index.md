@@ -1,16 +1,9 @@
 ---
-title: Welcome to Flowershow Demo!
+title: Welcome to Docs demo!
 description: Explore Flowershow's features and configuration options in this demo site!
-image: hero.png
-showHero: true
-cta:
-  - label: Explore syntax
-    href: "#-markdown-syntax"
-  - label: See demo blog
-    href: "/blog"
 ---
 
-This site is published from https://github.com/flowershow/demo using [Flowershow](https://flowershow.app) - an elegant solution for publishing your Obsidian vaults and Markdown content directly from GitHub repositories.
+An elegant solution for publishing your Markdown content directly from GitHub repositories.
 
 ## 🎯 What's Inside?
 
@@ -38,7 +31,7 @@ This demo showcases various Flowershow features and configuration options:
 
 `Inline code`
 
-==Highlighted text==
+== Highlighted text ==
 
 ### Lists
 
@@ -108,15 +101,16 @@ print(greet("Flowershow"))
 
 (`[Visit Flowershow Website](https://flowershow.app)`) [Visit Flowershow Website](https://flowershow.app)
 
+Theme color `#121B32`
 (`![Lotus flower](./lotus.png)`) ![Lotus flower](./lotus.png)
 
 ### Obsidian Wiki-links
 
 Flowershow supports Obsidian-style wiki-links. For example, this links to our example blog post: (`[[abc]]`) [[abc]]
 
-You can also use the full path: (`[[blog/abc]]`) [[blog/abc]] 
+You can also use the full path: (`[[blog/abc]]`) [[blog/abc]]
 
-And use Obsidian-style image embedding: (`![[lotus.png]]`) ![[lotus.png]] 
+And use Obsidian-style image embedding: (`![[lotus.png]]`) ![[lotus.png]]
 
 ### Math Equations
 
@@ -137,6 +131,9 @@ graph TD
     C --> E[End]
     D --> E
 ```
+### Youtube Videos
+
+https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 ### Callouts
 
@@ -192,7 +189,3 @@ Have a suggestion? Feel free to:
 1. Open an issue
 2. Submit a pull request
 3. Start a discussion
-
----
-
-*Built with 💖 using [Flowershow](https://flowershow.app)*

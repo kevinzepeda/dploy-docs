@@ -26,7 +26,7 @@ module.exports = {
       colors: {
         background: {
           DEFAULT: colors.white,
-          dark: colors.slate[900],
+          dark: "#121B32",
         },
         primary: {
           DEFAULT: colors.gray[700],
@@ -40,7 +40,5 @@ module.exports = {
     },
   },
   /* eslint global-require: off */
-  plugins: [
-    require("@tailwindcss/typography")
-  ],
+  plugins: [require("@tailwindcss/typography")],
 };

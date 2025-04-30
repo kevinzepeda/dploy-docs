@@ -36,6 +36,7 @@ export type UserConfig = {
   showComments?: boolean;
   search?: NavConfig["search"];
   social?: NavConfig["social"];
+  footer?: NavConfig["links"];
   theme?: ThemeConfig;
   preProcess?: (source: string) => string;
   title?: string;
